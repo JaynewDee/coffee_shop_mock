@@ -8,6 +8,7 @@ export const styles = {
     fontFamily: 'Imbue',
     fontWeight: 'lighter',
     backgroundColor: 'rgba(100,100,100, .2)',
-    minHeight: '100vh'
+    minHeight: '100vh',
   },
+  
 };

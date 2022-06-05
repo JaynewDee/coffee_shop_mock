@@ -1,0 +1,11 @@
+<section *ngFor="let category of data; index as i">
+  <h3 [ngClass]="classes.heading">
+    <app-expandbtn (expandEvent)="onExpand(i)"></app-expandbtn>
+    {{ category.name }}
+  </h3>
+  <article *ngIf="category.show" [ngClass]="classes.expandable">
+    <p>{{ category.p1 }}</p>
+    <p>{{ category.p2 }}</p>
+    <p *ngIf="category.p3">{{ category.p3 }}</p>
+  </article>
+</section>

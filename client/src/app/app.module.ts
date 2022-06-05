@@ -7,7 +7,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TitleComponent } from './header/title/title.component';
 import { ExpanseComponent } from './expanse/expanse.component';
-import { SectionComponent } from './expanse/section/section.component';
+import { ContactComponent } from './contact/contact.component';
+import { ExpandbtnComponent } from './contact/detail/expandbtn/expandbtn.component';
+import { DetailComponent } from './contact/detail/detail.component';
 
 jss.setup(preset());
 
@@ -17,7 +19,9 @@ jss.setup(preset());
     HeaderComponent,
     TitleComponent,
     ExpanseComponent,
-    SectionComponent,
+    ContactComponent,
+    ExpandbtnComponent,
+    DetailComponent,
   ],
   imports: [
     BrowserModule

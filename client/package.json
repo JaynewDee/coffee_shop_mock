@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
     "jss": "^10.9.0",
+    "jss-plugin-nested": "^10.9.0",
     "jss-preset-default": "^10.9.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

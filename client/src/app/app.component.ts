@@ -10,12 +10,11 @@ import {styles} from './app.component.styles';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styles: []
 })
 
 export class AppComponent implements OnInit {
 
-  public title: string = "blog'o'teq"
+  public title: string = "the Leaf & Bean"
   public classes: any
 
   ngOnInit(): void {
